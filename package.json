@@ -1,6 +1,6 @@
 {
 	"name": "@sindresorhus/class-names",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "Conditionally join CSS class names together - Especially useful with React",
 	"license": "MIT",
 	"repository": "sindresorhus/class-names",
