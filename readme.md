@@ -13,6 +13,8 @@ $ npm install @sindresorhus/class-names
 ## Usage
 
 ```js
+const classNames = require('@sindresorhus/class-names');
+
 classNames('unicorn', 'rainbow');
 //=> 'unicorn rainbow'
 
@@ -28,6 +30,8 @@ classNames({[`button-${buttonType}`]: true});
 ```
 
 ```jsx
+const classNames = require('@sindresorhus/class-names');
+
 const Button = props => {
 	console.log(props);
 	/*
