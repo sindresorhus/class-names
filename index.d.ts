@@ -1,7 +1,7 @@
 /**
 Conditionally join CSS class names together.
 
-@param input - Accepts a combination of strings and objects. Only object keys with truthy values are included. Anything else is ignored.
+@param input - Accepts a combination of strings and objects. When an object, only object keys with truthy values are included. Anything else is ignored.
 
 @example
 ```
