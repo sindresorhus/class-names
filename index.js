@@ -1,20 +1,20 @@
 'use strict';
-module.exports = (...args) => {
-	const ret = new Set();
+module.exports = (...arguments_) => {
+	const result = new Set();
 
-	for (const item of args) {
+	for (const item of arguments_) {
 		const type = typeof item;
 
 		if (type === 'string' && item.length > 0) {
-			ret.add(item);
+			result.add(item);
 		} else if (type === 'object' && item !== null) {
 			for (const [key, value] of Object.entries(item)) {
 				if (value) {
-					ret.add(key);
+					result.add(key);
 				}
 			}
 		}
 	}
 
-	return [...ret].join(' ');
+	return [...result].join(' ');
 };

@@ -66,7 +66,7 @@ Conditionally join CSS class names together.
 
 #### input
 
-Type: `string` `Object`
+Type: `string | object`
 
 Accepts a combination of strings and objects. Only object keys with truthy values are included. Anything else is ignored.
 
