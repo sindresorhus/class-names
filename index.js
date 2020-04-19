@@ -1,4 +1,5 @@
 'use strict';
+
 module.exports = (...arguments_) => {
 	const result = new Set();
 

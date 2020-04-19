@@ -1,14 +1,12 @@
-# class-names [![Build Status](https://travis-ci.org/sindresorhus/class-names.svg?branch=master)](https://travis-ci.org/sindresorhus/class-names) [![gzip size](http://img.badgesize.io/https://cdn.jsdelivr.net/npm/@sindresorhus/class-names/index.js?compression=gzip)](https://cdn.jsdelivr.net/npm/@sindresorhus/class-names/index.js)
+# class-names [![Build Status](https://travis-ci.com/sindresorhus/class-names.svg?branch=master)](https://travis-ci.com/sindresorhus/class-names) [![gzip size](https://img.badgesize.io/https://cdn.jsdelivr.net/npm/@sindresorhus/class-names/index.js?compression=gzip)](https://cdn.jsdelivr.net/npm/@sindresorhus/class-names/index.js)
 
 > Conditionally join CSS class names together - Especially useful with React
-
 
 ## Install
 
 ```
 $ npm install @sindresorhus/class-names
 ```
-
 
 ## Usage
 
@@ -57,7 +55,6 @@ const Button = props => {
 };
 ```
 
-
 ## API
 
 ### classNames(…input)
@@ -70,7 +67,6 @@ Type: `string | object`
 
 Accepts a combination of strings and objects. When an object, only object keys with truthy values are included. Anything else is ignored.
 
-
 ## FAQ
 
 ### How is it different from [`classnames`](https://github.com/JedWatson/classnames)?
@@ -79,12 +75,6 @@ Accepts a combination of strings and objects. When an object, only object keys w
 - Doesn't coerce numbers to strings.
 - Doesn't support array input. Just use the spread operator.
 
-
 ## Related
 
 - [react-extras](https://github.com/sindresorhus/react-extras) - Useful components and utilities for working with React
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)

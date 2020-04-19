@@ -4,10 +4,11 @@
 	"description": "Conditionally join CSS class names together - Especially useful with React",
 	"license": "MIT",
 	"repository": "sindresorhus/class-names",
+	"funding": "https://github.com/sponsors/sindresorhus",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
-		"url": "sindresorhus.com"
+		"url": "https://sindresorhus.com"
 	},
 	"engines": {
 		"node": ">=8"
