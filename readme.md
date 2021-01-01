@@ -1,4 +1,4 @@
-# class-names [![Build Status](https://travis-ci.com/sindresorhus/class-names.svg?branch=master)](https://travis-ci.com/sindresorhus/class-names) [![gzip size](https://img.badgesize.io/https://cdn.jsdelivr.net/npm/@sindresorhus/class-names/index.js?compression=gzip)](https://cdn.jsdelivr.net/npm/@sindresorhus/class-names/index.js)
+# class-names
 
 > Conditionally join CSS class names together - Especially useful with React
 
