@@ -1,5 +1,5 @@
 import {expectType} from 'tsd';
-import classNames = require('.');
+import classNames from './index.js';
 
 expectType<string>(classNames('unicorn', 'rainbow'));
 expectType<string>(

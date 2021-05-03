@@ -1,6 +1,4 @@
-'use strict';
-
-module.exports = (...arguments_) => {
+export default function classnames(...arguments_) {
 	const result = new Set();
 
 	for (const item of arguments_) {
@@ -18,4 +16,4 @@ module.exports = (...arguments_) => {
 	}
 
 	return [...result].join(' ');
-};
+}

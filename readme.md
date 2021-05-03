@@ -11,7 +11,7 @@ $ npm install @sindresorhus/class-names
 ## Usage
 
 ```js
-const classNames = require('@sindresorhus/class-names');
+import classNames from '@sindresorhus/class-names';
 
 classNames('unicorn', 'rainbow');
 //=> 'unicorn rainbow'
@@ -28,7 +28,7 @@ classNames({[`button-${buttonType}`]: true});
 ```
 
 ```jsx
-const classNames = require('@sindresorhus/class-names');
+import classNames from '@sindresorhus/class-names';
 
 const Button = props => {
 	console.log(props);
@@ -72,8 +72,8 @@ Accepts a combination of strings and objects. When an object, only object keys w
 ### How is it different from [`classnames`](https://github.com/JedWatson/classnames)?
 
 - Dedupes by default.
-- Doesn't coerce numbers to strings.
-- Doesn't support array input. Just use the spread operator.
+- Does not coerce numbers to strings.
+- Does not support array input. Just use the spread operator.
 
 ## Related
 

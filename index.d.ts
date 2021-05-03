@@ -5,7 +5,7 @@ Conditionally join CSS class names together.
 
 @example
 ```
-import classNames = require('@sindresorhus/class-names');
+import classNames from '@sindresorhus/class-names';
 
 classNames('unicorn', 'rainbow');
 //=> 'unicorn rainbow'
@@ -19,7 +19,6 @@ classNames('unicorn', null, undefined, 0, 1, {foo: null});
 const buttonType = 'main';
 classNames({[`button-${buttonType}`]: true});
 //=> 'button-main'
-
 
 const Button = props => {
 	console.log(props);
@@ -44,6 +43,4 @@ const Button = props => {
 };
 ```
 */
-declare function classNames(...input: unknown[]): string;
-
-export = classNames;
+export default function classNames(...input: unknown[]): string;
