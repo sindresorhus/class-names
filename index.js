@@ -1,4 +1,4 @@
-export default function classnames(...arguments_) {
+export default function classNames(...arguments_) {
 	const result = new Set();
 
 	for (const item of arguments_) {
